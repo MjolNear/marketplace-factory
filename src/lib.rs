@@ -13,7 +13,7 @@ enum StorageKey {
 
 type MarketplaceId = AccountId;
 
-const INITIAL_BALANCE : Balance = 6_000_000_000_000_000_000_000_000;
+const INITIAL_BALANCE : Balance = 5_000_000_000_000_000_000_000_000;
 const NEW_MARKET_GAS : Gas = Gas(200_000_000_000_000);
 const NO_BALANCE: Balance = 0;
 const CODE: &[u8] = include_bytes!("./compiled/main.wasm");
